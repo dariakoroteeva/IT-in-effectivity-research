@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Применение IT в изучении эффективности опылителей</title>
+    <style>
+        body {
+            background-color: #fffacd;
+            font-family: arial;
+        }
+        .photo {
+            float: left;
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+        .info::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        .list-label {
+            font-weight: bold;
+        }
+        main {
+            background-color: #fffacd;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+                        0 3px 6px rgba(0, 0, 0, .23);
+            margin: 16px;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Сайт Коротеевой Д.О.</h1>
+        <section class="info">
+            <h2>Автобиография</h2>
+            <img src="./avatar.png" alt="Коротеева Д.О." class="photo">
+            <p>
+                С отличием окончила Белорусский государственный университет по специальности "Биология: научно-педагогическая деятельность"
+                в 2017 году. Сейчас является магистранткой биологического факультета БГУ дневной формы обучения по специальности "биология".
+                Участвовала в многочисленных научных конференциях, имеет значительное число научных публикаций.
+                
+                Тема научно-исследовательской работы: Адаптация методик определения эффективности трансфера
+                                                      пыльцы жалоносными перепончатокрылыми (Aculeata)
+                
+                
+            </p>
+        </section>
+        <section>
+            <label class="list-label" for="workLinks">Ссылки на </label>
+            <ul id="workLinks">
+                <li>
+                    <a href="#https://github.com/[username]/[repository_name]/raw/master/[path_to_file]/[filename_with_extension]">Выпускная работа</a>
+                </li>
+                <li>
+                    <a href="https://github.com/bukerok/test-gh-pages/raw/master/masters-work.doc">Выпускная работа</a>
+                </li>
+                <li>
+                    Научный руководитель <a href="#http://www.bio.bsu.by/zoology/khvir_ru.html" target="_blank">Хвир В.И.</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
